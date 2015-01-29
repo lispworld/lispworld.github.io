@@ -1,0 +1,78 @@
+.navbar-inverted {
+    background-color: #003452;
+    border-color: #033f62;
+}
+.navbar-inverted .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-inverted .navbar-brand:hover, .navbar-inverted .navbar-brand:focus {
+    color: #e5e6f7;
+}
+.navbar-inverted .navbar-text {
+    color: #ecf0f1;
+}
+.navbar-inverted .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-inverted .navbar-nav > li > a:hover, .navbar-inverted .navbar-nav > li > a:focus {
+    color: #e5e6f7;
+}
+.navbar-inverted .navbar-nav > .active > a, .navbar-inverted .navbar-nav > .active > a:hover, .navbar-inverted .navbar-nav > .active > a:focus {
+    color: #e5e6f7;
+    background-color: #033f62;
+}
+.navbar-inverted .navbar-nav > .open > a, .navbar-inverted .navbar-nav > .open > a:hover, .navbar-inverted .navbar-nav > .open > a:focus {
+    color: #e5e6f7;
+    background-color: #033f62;
+}
+.navbar-inverted .navbar-toggle {
+    border-color: #033f62;
+}
+.navbar-inverted .navbar-toggle:hover, .navbar-inverted .navbar-toggle:focus {
+    background-color: #033f62;
+}
+.navbar-inverted .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+.navbar-inverted .navbar-collapse,
+.navbar-inverted .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar-inverted .navbar-link {
+    color: #ecf0f1;
+}
+.navbar-inverted .navbar-link:hover {
+    color: #e5e6f7;
+}
+
+@media (max-width: 767px) {
+    .navbar-inverted .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-inverted .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverted .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #e5e6f7;
+    }
+    .navbar-inverted .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverted .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverted .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #e5e6f7;
+        background-color: #033f62;
+    }
+}
+
+.falink {
+  padding-top: 7px !important;
+  padding-bottom: 4px !important;
+}
+
+.jumbotron {
+  height: 350px;
+  color: white;
+  text-shadow: 5px 5px 10px #000;
+  background: url('../img/color-map1101010-dark-medium.jpg') no-repeat center center;
+  /*background: transparent;*/
+  background-size: cover;
+  border-bottom: solid #003452 3px;
+}
+
+.jumbotron h1 {
+  font-size: 275%
+}
